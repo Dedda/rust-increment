@@ -1,7 +1,9 @@
 [package]
 name = "increment"
+description = "Increment all type of integers if it is still possible."
 version = "0.1.0"
 authors = ["Stephan Goeppentin <dedda102@gmail.com>"]
 edition = "2018"
+license = "LGPL-3.0"
 
 [dependencies]
