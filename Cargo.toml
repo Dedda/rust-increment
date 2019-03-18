@@ -1,6 +1,6 @@
 [package]
 name = "increment"
-description = "Increment all type of integers if it is still possible."
+description = "Increment all types of integers if it is still possible."
 version = "0.2.0"
 authors = ["Stephan Goeppentin <dedda102@gmail.com>"]
 edition = "2018"
