@@ -311,3 +311,17 @@ impl Incrementable for String {
         }
     }
 }
+
+/// Examples:
+///
+/// ```
+/// use increment::*;
+///
+/// assert_eq!(2, increment!(1).unwrap());
+/// ```
+#[macro_export]
+macro_rules! increment {
+    ($incrementable:expr) => {
+        $incrementable.increment()
+    };
+}
